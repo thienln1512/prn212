@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\thienlnded180547\\PRN212\\prn212\\HW_05\\HW2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6380DC77-91AE-4B6A-A71A-8A25CE5E3C0E}|HW2\\HW2.csproj|d:\\thienlnded180547\\prn212\\prn212\\hw_05\\hw2\\hw2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6380DC77-91AE-4B6A-A71A-8A25CE5E3C0E}|HW2\\HW2.csproj|solutionrelative:hw2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\thienlnded180547\\PRN212\\prn212\\HW_05\\HW2\\HW2\\Program.cs",
+              "RelativeDocumentMoniker": "HW2\\Program.cs",
+              "ToolTip": "D:\\thienlnded180547\\PRN212\\prn212\\HW_05\\HW2\\HW2\\Program.cs",
+              "RelativeToolTip": "HW2\\Program.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAqwOQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T15:33:28.693Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
