@@ -1,0 +1,13 @@
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\bin\Debug\net9.0\HotelObjects.deps.json
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\bin\Debug\net9.0\HotelObjects.dll
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\bin\Debug\net9.0\HotelObjects.pdb
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\obj\Debug\net9.0\HotelObjects.csproj.AssemblyReference.cache
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\obj\Debug\net9.0\HotelObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\obj\Debug\net9.0\HotelObjects.AssemblyInfoInputs.cache
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\obj\Debug\net9.0\HotelObjects.AssemblyInfo.cs
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\obj\Debug\net9.0\HotelObjects.csproj.CoreCompileInputs.cache
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\obj\Debug\net9.0\HotelObjects.sourcelink.json
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\obj\Debug\net9.0\HotelObjects.dll
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\obj\Debug\net9.0\refint\HotelObjects.dll
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\obj\Debug\net9.0\HotelObjects.pdb
+D:\thienlnded180547\PRN212\prn212\ASM1\HotelObjects\obj\Debug\net9.0\ref\HotelObjects.dll

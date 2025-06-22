@@ -1,0 +1,12 @@
+D:\thienlnded180547\PRN212\prn212\HW_06\ProductManagementDemo\BusinessObjects\bin\Debug\net9.0\BusinessObjects.deps.json
+D:\thienlnded180547\PRN212\prn212\HW_06\ProductManagementDemo\BusinessObjects\bin\Debug\net9.0\BusinessObjects.dll
+D:\thienlnded180547\PRN212\prn212\HW_06\ProductManagementDemo\BusinessObjects\bin\Debug\net9.0\BusinessObjects.pdb
+D:\thienlnded180547\PRN212\prn212\HW_06\ProductManagementDemo\BusinessObjects\obj\Debug\net9.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\thienlnded180547\PRN212\prn212\HW_06\ProductManagementDemo\BusinessObjects\obj\Debug\net9.0\BusinessObjects.AssemblyInfoInputs.cache
+D:\thienlnded180547\PRN212\prn212\HW_06\ProductManagementDemo\BusinessObjects\obj\Debug\net9.0\BusinessObjects.AssemblyInfo.cs
+D:\thienlnded180547\PRN212\prn212\HW_06\ProductManagementDemo\BusinessObjects\obj\Debug\net9.0\BusinessObjects.csproj.CoreCompileInputs.cache
+D:\thienlnded180547\PRN212\prn212\HW_06\ProductManagementDemo\BusinessObjects\obj\Debug\net9.0\BusinessObjects.sourcelink.json
+D:\thienlnded180547\PRN212\prn212\HW_06\ProductManagementDemo\BusinessObjects\obj\Debug\net9.0\BusinessObjects.dll
+D:\thienlnded180547\PRN212\prn212\HW_06\ProductManagementDemo\BusinessObjects\obj\Debug\net9.0\refint\BusinessObjects.dll
+D:\thienlnded180547\PRN212\prn212\HW_06\ProductManagementDemo\BusinessObjects\obj\Debug\net9.0\BusinessObjects.pdb
+D:\thienlnded180547\PRN212\prn212\HW_06\ProductManagementDemo\BusinessObjects\obj\Debug\net9.0\ref\BusinessObjects.dll

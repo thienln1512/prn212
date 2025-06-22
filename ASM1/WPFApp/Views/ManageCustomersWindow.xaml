@@ -1,0 +1,25 @@
+﻿<Window x:Class="WPFApp.Views.ManageCustomersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manage Customers" Height="400" Width="600">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0 0 0 10">
+            <Button Content="Add Customer" Click="Add_Click" Margin="0 0 10 0"/>
+            <Button Content="Edit Customer" Click="Edit_Click" Margin="0 0 10 0"/>
+            <Button Content="Delete Customer" Click="Delete_Click"/>
+        </StackPanel>
+        <DataGrid Grid.Row="1" ItemsSource="{Binding Customers}" SelectedItem="{Binding SelectedCustomer}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding CustomerID}"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding CustomerFullName}"/>
+                <DataGridTextColumn Header="Phone" Binding="{Binding Telephone}"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding EmailAddress}"/>
+                <DataGridTextColumn Header="Birthday" Binding="{Binding CustomerBirthday}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

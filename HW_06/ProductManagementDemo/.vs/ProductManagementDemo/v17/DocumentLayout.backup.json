@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA0265F6-95A3-4F57-BD6C-4DF2387DE827}|ProductManagement\\ProductManagement.csproj|d:\\thienlnded180547\\prn212\\prn212\\hw_06\\productmanagementdemo\\productmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA0265F6-95A3-4F57-BD6C-4DF2387DE827}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA0265F6-95A3-4F57-BD6C-4DF2387DE827}|ProductManagement\\ProductManagement.csproj|d:\\thienlnded180547\\prn212\\prn212\\hw_06\\productmanagementdemo\\productmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA0265F6-95A3-4F57-BD6C-4DF2387DE827}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEF149CD-0A9B-47E6-AFB0-DB72AB23F653}|BusinessObjects\\BusinessObjects.csproj|d:\\thienlnded180547\\prn212\\prn212\\hw_06\\productmanagementdemo\\businessobjects\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEF149CD-0A9B-47E6-AFB0-DB72AB23F653}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA0265F6-95A3-4F57-BD6C-4DF2387DE827}|ProductManagement\\ProductManagement.csproj|d:\\thienlnded180547\\prn212\\prn212\\hw_06\\productmanagementdemo\\productmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA0265F6-95A3-4F57-BD6C-4DF2387DE827}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA0265F6-95A3-4F57-BD6C-4DF2387DE827}|ProductManagement\\ProductManagement.csproj|d:\\thienlnded180547\\prn212\\prn212\\hw_06\\productmanagementdemo\\productmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AA0265F6-95A3-4F57-BD6C-4DF2387DE827}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA0265F6-95A3-4F57-BD6C-4DF2387DE827}|ProductManagement\\ProductManagement.csproj|d:\\thienlnded180547\\prn212\\prn212\\hw_06\\productmanagementdemo\\productmanagement\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA0265F6-95A3-4F57-BD6C-4DF2387DE827}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA0265F6-95A3-4F57-BD6C-4DF2387DE827}|ProductManagement\\ProductManagement.csproj|d:\\thienlnded180547\\prn212\\prn212\\hw_06\\productmanagementdemo\\productmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AA0265F6-95A3-4F57-BD6C-4DF2387DE827}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A322C48B-70A5-4A4C-8D4A-F66A6EB2D568}|Services\\Services.csproj|d:\\thienlnded180547\\prn212\\prn212\\hw_06\\productmanagementdemo\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A322C48B-70A5-4A4C-8D4A-F66A6EB2D568}|Services\\Services.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A322C48B-70A5-4A4C-8D4A-F66A6EB2D568}|Services\\Services.csproj|d:\\thienlnded180547\\prn212\\prn212\\hw_06\\productmanagementdemo\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A322C48B-70A5-4A4C-8D4A-F66A6EB2D568}|Services\\Services.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A322C48B-70A5-4A4C-8D4A-F66A6EB2D568}|Services\\Services.csproj|d:\\thienlnded180547\\prn212\\prn212\\hw_06\\productmanagementdemo\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A322C48B-70A5-4A4C-8D4A-F66A6EB2D568}|Services\\Services.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\ProductManagement\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\ProductManagement\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "ProductManagement\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:39:41.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\BusinessObjects\\Product.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Product.cs",
+              "ToolTip": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\BusinessObjects\\Product.cs",
+              "RelativeToolTip": "BusinessObjects\\Product.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:50:38.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\ProductManagement\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\ProductManagement\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ProductManagement\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAKUAAAAAAAAAAAASwKsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:44:06.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\ProductManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductManagement\\appsettings.json",
+              "ToolTip": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\ProductManagement\\appsettings.json",
+              "RelativeToolTip": "ProductManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T09:36:31.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\ProductManagement\\App.xaml",
+              "RelativeDocumentMoniker": "ProductManagement\\App.xaml",
+              "ToolTip": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\ProductManagement\\App.xaml",
+              "RelativeToolTip": "ProductManagement\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-16T09:36:36.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\ProductManagement\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "ProductManagement\\LoginWindow.xaml",
+              "ToolTip": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\ProductManagement\\LoginWindow.xaml",
+              "RelativeToolTip": "ProductManagement\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-16T09:34:41.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\ProductManagement\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ProductManagement\\MainWindow.xaml",
+              "ToolTip": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\ProductManagement\\MainWindow.xaml",
+              "RelativeToolTip": "ProductManagement\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-16T09:33:16.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Services\\AccountService.cs",
+              "ToolTip": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\Services\\AccountService.cs",
+              "RelativeToolTip": "Services\\AccountService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:29:28.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:28:49.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
+              "ToolTip": "D:\\thienlnded180547\\PRN212\\prn212\\HW_06\\ProductManagementDemo\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\CategoryService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:25:38.149Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
