@@ -1,0 +1,15 @@
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\bin\Debug\net9.0\Chap9.exe
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\bin\Debug\net9.0\Chap9.deps.json
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\bin\Debug\net9.0\Chap9.runtimeconfig.json
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\bin\Debug\net9.0\Chap9.dll
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\bin\Debug\net9.0\Chap9.pdb
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\obj\Debug\net9.0\Chap9.GeneratedMSBuildEditorConfig.editorconfig
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\obj\Debug\net9.0\Chap9.AssemblyInfoInputs.cache
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\obj\Debug\net9.0\Chap9.AssemblyInfo.cs
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\obj\Debug\net9.0\Chap9.csproj.CoreCompileInputs.cache
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\obj\Debug\net9.0\Chap9.sourcelink.json
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\obj\Debug\net9.0\Chap9.dll
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\obj\Debug\net9.0\refint\Chap9.dll
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\obj\Debug\net9.0\Chap9.pdb
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\obj\Debug\net9.0\Chap9.genruntimeconfig.cache
+D:\thienlnded180547\PRN212\prn212\Chap9\Chap9\obj\Debug\net9.0\ref\Chap9.dll

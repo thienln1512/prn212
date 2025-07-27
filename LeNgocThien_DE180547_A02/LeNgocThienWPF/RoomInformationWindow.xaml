@@ -1,0 +1,97 @@
+﻿<Window x:Class="LeNgocThienWPF.RoomInformationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeNgocThienWPF"
+        mc:Ignorable="d"
+        Title="RoomInformationWindow" Height="510" Width="450">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Margin" Value="10,10,0,10"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+            <Setter Property="Width" Value="160"></Setter>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="0,10,10,10"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Width" Value="240"></Setter>
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10" />
+                </Style>
+            </Style.Resources>
+        </Style>
+        <Style TargetType="DatePickerTextBox">
+            <Setter Property="Margin" Value="0,10,10,10"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Width" Value="240"></Setter>
+            <Setter Property="BorderBrush" Value="Gray"></Setter>
+            <Setter Property="BorderThickness" Value="1"></Setter>
+            <Setter Property="Template" >
+                <Setter.Value>
+                    <ControlTemplate>
+                        <Border CornerRadius="10" BorderBrush="Gray" BorderThickness="0.5" />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="0,10,10,10"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Width" Value="240"></Setter>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="80"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Margin" Value="40,15"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="FontWeight" Value="SemiBold"></Setter>
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Foreground" Value="White" />
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5" />
+                </Style>
+            </Style.Resources>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <TextBlock Text="Room Information" FontSize="30" FontWeight="SemiBold" Margin="0,10"></TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Room Number"></Label>
+                <TextBox Name="txtRoomNumber" Text="{Binding RoomNumber}"></TextBox>
+            </StackPanel><StackPanel Orientation="Horizontal">
+                <Label Content="Room Type"></Label>
+                <ComboBox Name="txtRoomType"></ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Description"></Label>
+                <TextBox Name="txtRoomDescription" Text="{Binding RoomDetailDescription}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Max Capacity"></Label>
+                <TextBox Name="txtRoomMaxCapacity" Text="{Binding RoomMaxCapacity}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Price"></Label>
+                <TextBox Name="txtPrice" Text="{Binding RoomPricePerDay}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Status"></Label>
+                <TextBox Name="txtStatus" Text="{Binding RoomStatus}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="btnUpdate" Content="Update" Background="#6346f9" Click="btnUpdate_Click"></Button>
+                <Button Name="btnClose" Content="Close" Background="#D9462C" Click="btnClose_Click"></Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

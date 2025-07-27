@@ -1,0 +1,79 @@
+﻿<Window x:Class="LeNgocThienWPF.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeNgocThienWPF"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="768" Width="1366"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="/assets/background.png"/>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="6*" />
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" CornerRadius="0, 100, 100, 0" Background="White" Opacity="0.9">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="11*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Text="MINI HOTEL MANAGEMENT" FontSize="20" FontWeight="DemiBold" Margin="20,15,0,0"></TextBlock>
+                <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Center" Width="500" Margin="0,-80,0,0">
+                    <TextBlock Text="Log In" HorizontalAlignment="Center" FontSize="40" FontWeight="Bold" Margin="0,0,0,20"></TextBlock>
+                    <Label Content="Email" FontSize="20" FontWeight="SemiBold"></Label>
+                    <TextBox Name="txtEmail" Height="40" FontSize="16" Padding="10, 0" VerticalContentAlignment="Center">
+                        <TextBox.Resources>
+                            <Style TargetType="{x:Type TextBox}">
+                                <Style.Resources>
+                                    <Style TargetType="{x:Type Border}">
+                                        <Setter Property="CornerRadius" Value="10" />
+                                    </Style>
+                                </Style.Resources>
+                            </Style>
+                        </TextBox.Resources>
+                    </TextBox>
+                    <Label Content="Password" FontSize="20" FontWeight="SemiBold"></Label>
+                    <PasswordBox Name="txtPassword" Height="40" FontSize="16" Padding="10, 0" VerticalContentAlignment="Center">
+                        <PasswordBox.Template>
+                            <ControlTemplate TargetType="{x:Type PasswordBox}">
+                                <Border CornerRadius="10" BorderBrush="Gray" BorderThickness="0.5">
+                                    <ScrollViewer x:Name="PART_ContentHost" />
+                                </Border>
+                            </ControlTemplate>
+                        </PasswordBox.Template>
+                    </PasswordBox>
+                    <StackPanel Orientation="Horizontal" Margin="0,40,0,0" HorizontalAlignment="Center">
+                        <Button Name="btnLogin" Click="btnLogin_Click" Content="Log In" Width="200" Height="40" FontSize="16" FontWeight="Bold" Background="#6346f9" Foreground="White" Margin="10,0,15,0" BorderThickness="0">
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Button}">
+                                    <Style.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="10" />
+                                        </Style>
+                                    </Style.Resources>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                        <Button Name="btnExit" Click="btnExit_Click" Content="Exit" Width="200" Height="40" FontSize="16" FontWeight="Bold" Background="White" Foreground="#D9462C" Margin="15,0,10,0" BorderBrush="Gray">
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Button}">
+                                    <Style.Resources>
+                                        <Style TargetType="{x:Type Border}">
+                                            <Setter Property="CornerRadius" Value="10" />
+                                        </Style>
+                                    </Style.Resources>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

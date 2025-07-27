@@ -1,0 +1,39 @@
+﻿<Window x:Class="LeNgocThienWPF.ManagementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeNgocThienWPF"
+        mc:Ignorable="d"
+        Title="ManagementWindow" Height="768" Width="1366"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="180"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Margin" Value="10,30,0,-10"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="FontWeight" Value="SemiBold"></Setter>
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Background" Value="#6346f9" />
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5" />
+                </Style>
+            </Style.Resources>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="10*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Orientation="Vertical">
+            <Button Name="btnCustomer" Content="Customer Management" Click="btnCustomer_Click"></Button>
+            <Button Name="btnRoom" Content="Room Management" Click="btnRoom_Click"></Button>
+            <Button Name="btnReport" Content="Static Report" Click="btnReport_Click"></Button>
+        </StackPanel>
+        <Frame Name="frm" Grid.Column="1" Source="RoomManagementPage.xaml" NavigationUIVisibility="Hidden"></Frame>
+    </Grid>
+</Window>

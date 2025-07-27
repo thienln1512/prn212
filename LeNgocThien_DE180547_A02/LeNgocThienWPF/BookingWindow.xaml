@@ -1,0 +1,90 @@
+﻿<Window x:Class="LeNgocThienWPF.BookingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LeNgocThienWPF"
+        mc:Ignorable="d"
+        Title="BookingWindow" Height="500" Width="450">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Margin" Value="10,10,0,10"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="16"></Setter>
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+            <Setter Property="Width" Value="160"></Setter>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Margin" Value="0,10,10,10"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Width" Value="240"></Setter>
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="10" />
+                </Style>
+            </Style.Resources>
+        </Style>
+        <Style TargetType="DatePicker">
+            <Setter Property="Margin" Value="0,10,10,10"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Width" Value="240"></Setter>
+            <Setter Property="BorderBrush" Value="Gray"></Setter>
+            <Setter Property="BorderThickness" Value="1"></Setter>
+            <Setter Property="Border.CornerRadius" Value="10" />
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="0,10,10,10"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Width" Value="240"></Setter>
+            <Setter Property="Border.CornerRadius" Value="10" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Width" Value="80"></Setter>
+            <Setter Property="Height" Value="40"></Setter>
+            <Setter Property="Margin" Value="40,10"></Setter>
+            <Setter Property="FontSize" Value="14"></Setter>
+            <Setter Property="FontWeight" Value="SemiBold"></Setter>
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="Foreground" Value="White" />
+            <Style.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="5" />
+                </Style>
+            </Style.Resources>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <TextBlock Text="Add Booking" FontSize="30" FontWeight="SemiBold" Margin="0,10,0,15"></TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Room Number"></Label>
+                <ComboBox Name="cboRoomNumber" DisplayMemberPath="RoomNumber" SelectionChanged="RecaculateTotalPrice"></ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Check In"></Label>
+                <DatePicker Name="dptbCheckIn" SelectedDateChanged="RecaculateTotalPrice"></DatePicker>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Check Out"></Label>
+                <DatePicker Name="dptbCheckOut" SelectedDateChanged="RecaculateTotalPrice"></DatePicker>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Actual Price"/>
+                <TextBox x:Name="txtActualPrice"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Total Price"></Label>
+                <TextBox Name="txtTotalPrice"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Name="btnBook" Content="Book" Background="#6346f9" Click="btnBook_Click"></Button>
+                <Button Name="btnClose" Content="Close" Background="#D9462C" Click="btnClose_Click"></Button>
+            </StackPanel>
+            
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,90 @@
+﻿<Page x:Class="LeNgocThienWPF.CustomerManagementPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LeNgocThienWPF"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1138"
+      Title="CustomerManagement"
+      Background="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="10*" />
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="0" LastChildFill="False" Margin="20, 0">
+            <TextBlock DockPanel.Dock="Left" Text="Customers" VerticalAlignment="Center" FontSize="30" FontWeight="DemiBold"/>
+            <Button DockPanel.Dock="Right" Name="btnLogout" Click="btnLogout_Click" Background="Transparent" Width="40" Height="40" BorderThickness="0">
+                <Image Source="/Assets/logout.png" Width="16" Height="16"/>
+            </Button>
+        </DockPanel>
+        <DockPanel Grid.Row="1" LastChildFill="False" Margin="20, 0">
+            <TextBox Name="txtSearchCustomer" DockPanel.Dock="Left" Height="40" Width="320" TextWrapping="WrapWithOverflow" VerticalContentAlignment="Center" Padding="10, 0" FontSize="14" FontStyle="Italic" TextChanged="txtSearchCustomer_TextChanged">
+                <TextBox.Resources>
+                    <Style TargetType="{x:Type TextBox}">
+                        <Style.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="20" />
+                            </Style>
+                        </Style.Resources>
+                    </Style>
+                </TextBox.Resources>
+            </TextBox>
+            <Button DockPanel.Dock="Right" Name="btnDelete" Content="Delete" Foreground="White" Background="#D9462C" Width="120" Height="40" FontSize="14" FontWeight="SemiBold" Click="btnDelete_Click">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="20" />
+                            </Style>
+                        </Style.Resources>
+                    </Style>
+                </Button.Resources>
+            </Button>
+            <Button DockPanel.Dock="Right" Name="btnAdd" Content="Add Customer" Foreground="White" Background="#56A661" Width="120" Height="40" FontSize="14" FontWeight="SemiBold" Click="btnAdd_Click" Margin="0,0,10,0">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="20" />
+                            </Style>
+                        </Style.Resources>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </DockPanel>
+        <DataGrid Grid.Row="2" Name="dgCustomers" AutoGenerateColumns="False" Width="Auto" HorizontalAlignment="Stretch" MouseDoubleClick="dgCustomers_MouseDoubleClick" SelectionUnit="FullRow" SelectionMode="Extended">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Padding" Value="10, 15" />
+                    <Setter Property="FontWeight" Value="Bold" />
+                    <Setter Property="FontSize" Value="14" />
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Customer Name" Width="7*" Binding="{Binding CustomerFullName}"/>
+                <DataGridTextColumn Header="Phone" Width="4*" Binding="{Binding Telephone}"/>
+                <DataGridTextColumn Header="Email" Width="8*" Binding="{Binding EmailAddress}"/>
+                <DataGridTextColumn Header="Birthday" Width="3*" Binding="{Binding CustomerBirthday, StringFormat=dd/MM/yyyy}"/>
+                <DataGridTemplateColumn Header="Status" Width="2*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock x:Name="statusTextBlock" Text="{Binding CustomerStatus}" />
+                            <DataTemplate.Triggers>
+                                <DataTrigger Binding="{Binding CustomerStatus}" Value="1">
+                                    <Setter TargetName="statusTextBlock" Property="Text" Value="Active" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding CustomerStatus}" Value="2">
+                                    <Setter TargetName="statusTextBlock" Property="Text" Value="Deleted" />
+                                </DataTrigger>
+                            </DataTemplate.Triggers>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Page>
